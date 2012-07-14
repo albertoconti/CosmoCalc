@@ -38,6 +38,7 @@
 		D3219C3C15B1D23A00769E04 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3219C3B15B1D23A00769E04 /* MainViewController.m */; };
 		D3219C3E15B1D23A00769E04 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3219C3D15B1D23A00769E04 /* MainViewController.xib */; };
 		D3219C4215B1D23A00769E04 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = D3219C4115B1D23A00769E04 /* verify.sh */; };
+		D3219C4915B1D31600769E04 /* www in Resources */ = {isa = PBXBuildFile; fileRef = D3219C4815B1D31600769E04 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		D3219C0415B1D23800769E04 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D3219C0615B1D23800769E04 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D3219C0815B1D23800769E04 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		D3219C0C15B1D23900769E04 /* CosmoCalc-Info.plist */ = {isa = PBXFileReference; path = "CosmoCalc-Info.plist"; sourceTree = "<group>"; };
+		D3219C0C15B1D23900769E04 /* CosmoCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CosmoCalc-Info.plist"; sourceTree = "<group>"; };
 		D3219C0E15B1D23900769E04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3219C1015B1D23900769E04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3219C1215B1D23900769E04 /* CosmoCalc-Prefix.pch */ = {isa = PBXFileReference; path = "CosmoCalc-Prefix.pch"; sourceTree = "<group>"; };
+		D3219C1215B1D23900769E04 /* CosmoCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CosmoCalc-Prefix.pch"; sourceTree = "<group>"; };
 		D3219C1315B1D23900769E04 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		D3219C1815B1D23900769E04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D3219C1C15B1D23900769E04 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		D3219C3015B1D23900769E04 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		D3219C3215B1D23900769E04 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		D3219C3415B1D23900769E04 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		D3219C3715B1D23A00769E04 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		D3219C3715B1D23A00769E04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		D3219C3815B1D23A00769E04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		D3219C3A15B1D23A00769E04 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		D3219C3A15B1D23A00769E04 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		D3219C3B15B1D23A00769E04 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		D3219C3D15B1D23A00769E04 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		D3219C4015B1D23A00769E04 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		D3219C4015B1D23A00769E04 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		D3219C4115B1D23A00769E04 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		D3219C4815B1D31600769E04 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		D3219BDE15B1D23800769E04 = {
 			isa = PBXGroup;
 			children = (
+				D3219C4815B1D31600769E04 /* www */,
 				D3219C0A15B1D23800769E04 /* CosmoCalc */,
 				D3219BEF15B1D23800769E04 /* Frameworks */,
 				D3219BED15B1D23800769E04 /* Products */,
@@ -329,6 +332,7 @@
 				D3219C3515B1D23900769E04 /* Cordova.plist in Resources */,
 				D3219C3E15B1D23A00769E04 /* MainViewController.xib in Resources */,
 				D3219C4215B1D23A00769E04 /* verify.sh in Resources */,
+				D3219C4915B1D31600769E04 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
