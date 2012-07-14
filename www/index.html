@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>Ned Wright's Cosmology Calculator</title>
+		  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+	<meta charset="utf-8">
+		  
+	<link rel="stylesheet" href="assets/css/jquery.mobile-1.1.0.min.css" />
+	<link rel="stylesheet" href="assets/themes/jqm-icon-pack-1.1.1-fa.css">
+	<!-- <link rel="stylesheet" href="assets/css/cosmowidget.css" type="text/css">-->
+	<!-- <link rel="stylesheet" type="text/css" href="assets/js/main.css">-->
+	<script src="assets/js/jquery-1.7.2.min.js"></script>
+	<script src="assets/js/jquery.mobile-1.1.0.min.js"></script>
+	<script language="javascript" src="assets/js/cosmocalc.js"></script>
+
+	<!-- iPad/iPhone specific css below, add after your main css >
+	<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />		
+	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />		
+	-->
+	<script type="text/javascript" charset="utf-8" src="cordova-1.7.0.js"></script>
+     
+  </head>
+  <body>
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <div id="container">
+		  <div id="innercontainer">
+			  <h1>Ned Wright's <a href="http://www.astro.ucla.edu/~wright/CosmoCalc.html">Cosmology Calculator</a></h1>
+			  <div class="left">
+				  <p class="options">Input one value each for H<sub>o</sub>, Ω<sub>M</sub>, Ω<sub>vac</sub> to apply the same cosmology to all redshifts.</p>
+				  <div class="buttons">
+					  <input type="BUTTON" name="General" value="Go" onclick="doGeneral();">
+						  <input type="BUTTON" id="copy" value="results → clipboard">
+							  <input type="BUTTON" id="clear" value="clear">
+								  <!--<input type="BUTTON" name="Open" value="Open" onclick="doOpen();">
+								   <input type="BUTTON" name="Flat" value="Flat" onclick="doFlat();">-->
+								  </div>
+			  </div>
+			  <form name="getval">
+				  <div class="col"><span class="var">z</span><textarea name="txtz">0.1
+					  1
+					  3</textarea></div>
+				  <div class="col"><span class="var">H<sub>o</sub></span><textarea name="txtH0">71</textarea></div>
+				  <div class="col"><span class="var">Ω<sub>M</sub></span><textarea name="txtWM">0.27</textarea></div>
+				  <div class="col"><span class="var">Ω<sub>vac</sub></span><textarea name="txtWV" size="4">0.73</textarea></div>
+			  </form>
+			  <!--<p class="options"><b>General</b> uses the Ω<sub>vac</sub> that you entered.<br>
+			   <b>Open</b> sets Ω<sub>vac</sub> = 0 giving an open Universe [if
+			   you entered Ω<sub>M</sub> &lt; 1]<br>
+			   <b>Flat</b> sets Ω<sub>vac</sub> = 1-Ω<sub>M</sub> giving
+			   a flat Universe.<br>
+			   </p>-->
+			  <div class="output" id="output"></div>
+			  <div class="key" id="key">
+				  1 Gyr = 1 billion years, 1 Mpc = 1 million parsecs = <a onclick="widget.openURL('http://www.google.com/search?hl=en&amp;q=3261566+light+years+to+km');" href="#">3,261,566 light years</a>.
+			  </div>
+			  <p class="cite">© 1999-2012 <a onclick="widget.openURL('http://www.astro.ucla.edu/~wright/intro.html');" href="#">Edward L. Wright</a> - <b>Cite</b> <a onclick="widget.openURL('http://adsabs.harvard.edu/abs/2006PASP..118.1711W');" href="#">Wright (2006, PASP, 118, 1711)</a>. Adapted at <a onclick="widget.openURL('http://www.dotastronomy.com/');" href="#">dotAstronomy 4</a>.</p>
+		  </div>
+	  </div
+  </body>
+</html>
