@@ -1,0 +1,7 @@
+Cosmological Calculator App
+
+Brooke Simmons and Stuart Lowe worked on turning Ned Wright's Cosmology Calculator into a Mac Desktop widget. 
+This involved a lot of re-furbishing of the original Javascript so that we could allow an array of redshifts 
+to be provided and a table of results created.
+
+I imported the code into XCode and used PhoneGap to get a quick app working. Lots of work needs to be done to turn this into a proper app.
